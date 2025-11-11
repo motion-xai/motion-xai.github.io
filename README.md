@@ -38,7 +38,7 @@ Embedded system for robotic arm movement control with real-time feedback.
 ---
 
 ## 🌐 Connect With Me
-[LinkedIn](https://linkedin.com/in/musa-nurullah-yazar) | [Google Scholar](https://scholar.google.com/...) | [Email](mailto:mnyazar@itu.edu.tr)
+[LinkedIn](https://www.linkedin.com/in/musa-nurullah-yazar-7b65758a) | [Google Scholar](https://scholar.google.com/citations?user=T1TUMeUAAAAJ&hl=en) | [Email](mailto:mnyazar@itu.edu.tr)
 
 ---
 

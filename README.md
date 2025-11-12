@@ -28,8 +28,11 @@ Exploring intelligence in motion through research and code development
 ---
 
 ## 📂 Featured Projects
-### [Autonomous Driving Motion Planner](https://github.com/motion-xai/autonomous-motion-planner)
+### [Motion Planner for Autonomous Vehicles](https://github.com/motion-xai/autonomous-motion-planner)
 High-performance motion planning algorithms validated in CARLA simulation and real-world tests.
+
+<img width="474" height="213" alt="image" src="https://github.com/user-attachments/assets/b13e943c-bd6b-459e-91cf-efa7cd1b83b5" />
+
 
 
 ### [X-in-the-Loop Validation Platform for Autonomous Vehicles (XIL_Platform_AD)](https://github.com/xil-platform-ad)

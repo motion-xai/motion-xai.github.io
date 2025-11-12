@@ -44,7 +44,7 @@ A testing platform that integrates real and simulated components to validate aut
 ### [Virtual Robotic Lab](https://github.com/motion-xai/virtual-robotic-lab)
 A web-powered virtual robotic lab for high-performance coding, simulation, and seamless interaction with virtual 3d environment.
 
-<img width="853" height="588" alt="image" src="https://github.com/user-attachments/assets/fc54ddd4-8c9a-46d8-95a1-efb183a56554" />
+<img width="653" height="388" alt="image" src="https://github.com/user-attachments/assets/fc54ddd4-8c9a-46d8-95a1-efb183a56554" />
 
 
 ### [Smart Interactive Training System (SITS)](https://github.com/motion-xai/smart_interactive_training_system)

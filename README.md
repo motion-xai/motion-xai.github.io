@@ -31,11 +31,6 @@ Exploring intelligence in motion through research and code development
 ### [Autonomous Driving Motion Planner](https://github.com/motion-xai/autonomous-motion-planner)
 High-performance motion planning algorithms validated in CARLA simulation and real-world tests.
 
-### [Virtual Robotic Lab](https://github.com/motion-xai/virtual-robotic-lab)
-A web-powered virtual robotic lab for high-performance coding, simulation, and seamless interaction with virtual 3d environment.
-
-<img width="853" height="588" alt="image" src="https://github.com/user-attachments/assets/fc54ddd4-8c9a-46d8-95a1-efb183a56554" />
-
 
 ### [X-in-the-Loop Validation Platform for Autonomous Vehicles (XIL_Platform_AD)](https://github.com/xil-platform-ad)
 A testing platform that integrates real and simulated components to validate autonomous vehicle systems under controlled and realistic conditions.
@@ -44,6 +39,12 @@ A testing platform that integrates real and simulated components to validate aut
 [1]
 
 [1] Szalay, Zsolt. "Next generation X-in-the-loop validation methodology for automated vehicle systems." IEEE Access 9 (2021): 35616-35632.
+
+
+### [Virtual Robotic Lab](https://github.com/motion-xai/virtual-robotic-lab)
+A web-powered virtual robotic lab for high-performance coding, simulation, and seamless interaction with virtual 3d environment.
+
+<img width="853" height="588" alt="image" src="https://github.com/user-attachments/assets/fc54ddd4-8c9a-46d8-95a1-efb183a56554" />
 
 
 ### [Smart Interactive Training System (SITS)](https://github.com/motion-xai/smart_interactive_training_system)

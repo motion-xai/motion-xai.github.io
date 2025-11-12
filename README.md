@@ -36,7 +36,10 @@ A web-powered virtual robotic lab for high-performance coding, simulation, and s
 
 ### [X-in-the-Loop Validation Platform for Autonomous Vehicles (XIL_Platform_AD)](https://github.com/xil-platform-ad)
 A testing platform that integrates real and simulated components to validate autonomous vehicle systems under controlled and realistic conditions.
-<img width="381" height="215" alt="image" src="https://github.com/user-attachments/assets/ce5ac270-5ff5-4dec-8581-565071d0ab16" />[1]
+
+<img width="681" height="415" alt="image" src="https://github.com/user-attachments/assets/ce5ac270-5ff5-4dec-8581-565071d0ab16" />
+[1]
+
 [1] Szalay, Zsolt. "Next generation X-in-the-loop validation methodology for automated vehicle systems." IEEE Access 9 (2021): 35616-35632.
 
 

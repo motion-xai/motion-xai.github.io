@@ -34,6 +34,9 @@ High-performance motion planning algorithms validated in CARLA simulation and re
 ### [Virtual Robotic Lab](https://github.com/motion-xai/virtual-robotic-lab)
 A web-powered virtual robotic lab for high-performance coding, simulation, and seamless interaction with virtual 3d environment.
 
+<img width="853" height="588" alt="image" src="https://github.com/user-attachments/assets/fc54ddd4-8c9a-46d8-95a1-efb183a56554" />
+
+
 ### [X-in-the-Loop Validation Platform for Autonomous Vehicles (XIL_Platform_AD)](https://github.com/xil-platform-ad)
 A testing platform that integrates real and simulated components to validate autonomous vehicle systems under controlled and realistic conditions.
 

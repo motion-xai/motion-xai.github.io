@@ -45,6 +45,7 @@ A testing platform that integrates real and simulated components to validate aut
 
 ### [Smart Interactive Training System (SITS)](https://github.com/motion-xai/smart_interactive_training_system)
 Smart Interactive Training System (SITS) is an innovative, interactive training solution designed for indoor sports facilities. By leveraging overhead projection, SITS provides real-time visual guidance on the floor to enhance training programs for children and young athletes.
+
 <img width="460" height="307" alt="image" src="https://github.com/user-attachments/assets/c529cadc-339a-47ae-82d7-e3b577a545d7" />
 
 ---

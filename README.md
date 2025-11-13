@@ -50,11 +50,6 @@ A web-powered virtual robotic lab for high-performance coding, simulation, and s
 <img width="653" height="388" alt="image" src="https://github.com/user-attachments/assets/fc54ddd4-8c9a-46d8-95a1-efb183a56554" />
 
 
-### [Smart Interactive Training System (SITS)](https://github.com/motion-xai/smart_interactive_training_system)
-Smart Interactive Training System (SITS) is an innovative, interactive training solution designed for indoor sports facilities. By leveraging overhead projection, SITS provides real-time visual guidance on the floor to enhance training programs for children and young athletes.
-
-<img width="460" height="307" alt="image" src="https://github.com/user-attachments/assets/c529cadc-339a-47ae-82d7-e3b577a545d7" />
-
 ---
 
 ## 🌐 Connect With Me

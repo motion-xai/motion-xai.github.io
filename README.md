@@ -3,6 +3,17 @@ Exploring intelligence in motion through research and code development
 
 # Hi, I'm Musa Nurullah Yazar 👋
 
+<img src="images/photo.jpeg" width="130" alt="Musa Nurullah Yazar" style="border-radius:50%;">
+
+---
+
+## 🤝 Let's Connect
+Meeting at a conference or event? Scan the QR code below to connect with me on LinkedIn instantly.
+
+<img src="images/linkedin_qr.png" width="180" alt="QR code to connect on LinkedIn">
+
+[Open LinkedIn Profile](https://www.linkedin.com/in/musa-nurullah-yazar-7b65758a)
+
 ---
 
 ## 🚀 About Me
@@ -50,12 +61,13 @@ A web-powered virtual robotic lab for high-performance coding, simulation, and s
 <img width="653" height="388" alt="image" src="https://github.com/user-attachments/assets/fc54ddd4-8c9a-46d8-95a1-efb183a56554" />
 
 
+### [Palletizing Intelligence](https://github.com/motion-xai/palletizing-intelligence)
+Autonomous & flexible palletizing cell combining vision, pallet-pattern planning, collision-free motion planning and robot-agnostic execution with autonomous recovery.
+
+<img width="653" height="388" alt="image" src="images/palletizing.jpg" />
+
+
 ---
 
 ## 🌐 Connect With Me
 [LinkedIn](https://www.linkedin.com/in/musa-nurullah-yazar-7b65758a) | [Google Scholar](https://scholar.google.com/citations?user=T1TUMeUAAAAJ&hl=en) | [Email](mailto:mnyazar@itu.edu.tr)
-
----
-
-### 📌 QR Code
-*(Add your GitHub QR code image here for quick access)*  

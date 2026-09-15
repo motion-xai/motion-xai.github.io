@@ -21,6 +21,67 @@
       padding: 2rem 1rem;
     }
 
+    .avatar {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #007acc;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    .connect-section {
+      text-align: center;
+    }
+
+    .connect-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+
+    .qr-card {
+      background: #fff;
+      border: 2px solid #0A66C2;
+      border-radius: 12px;
+      padding: 1rem;
+      display: inline-block;
+    }
+
+    .qr-card img {
+      width: 200px;
+      height: 200px;
+      display: block;
+    }
+
+    .qr-caption {
+      max-width: 320px;
+      text-align: left;
+    }
+
+    .qr-caption p {
+      margin: 0.4rem 0;
+    }
+
+    .linkedin-btn {
+      display: inline-block;
+      margin-top: 0.6rem;
+      background: #0A66C2;
+      color: #fff !important;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none !important;
+      font-weight: bold;
+    }
+
+    .linkedin-btn:hover {
+      background: #084d92;
+    }
+
     section {
       max-width: 1000px;
       margin: 2rem auto;
@@ -105,6 +166,7 @@
 </head>
 <body>
   <header>
+    <img class="avatar" src="images/photo.jpeg" alt="Musa Nurullah Yazar">
     <h1>motion-xai.github.io</h1>
     <p>Exploring intelligence in motion through research and code development</p>
   </header>
@@ -112,6 +174,21 @@
   <section>
     <h2>👋 Hi, I'm Musa Nurullah Yazar</h2>
     <p>PhD in Control & Automation Engineering | Research Programs Lead Engineer at AVL</p>
+  </section>
+
+  <section class="connect-section">
+    <h2>🤝 Let's Connect</h2>
+    <p>Meeting at a conference or event? Scan the QR code below to connect with me on LinkedIn instantly.</p>
+    <div class="connect-box">
+      <div class="qr-card">
+        <img src="images/linkedin_qr.png" alt="QR code to connect with Musa Nurullah Yazar on LinkedIn">
+      </div>
+      <div class="qr-caption">
+        <p><strong>📱 Scan to connect on LinkedIn</strong></p>
+        <p>Points straight to my LinkedIn profile — tap Connect once it opens.</p>
+        <a class="linkedin-btn" href="https://www.linkedin.com/in/musa-nurullah-yazar-7b65758a" target="_blank">Open LinkedIn Profile</a>
+      </div>
+    </div>
   </section>
 
   <section>
@@ -162,6 +239,12 @@
         <img src="https://github.com/user-attachments/assets/fc54ddd4-8c9a-46d8-95a1-efb183a56554" alt="Virtual Robotic Lab">
         <h3><a href="https://github.com/motion-xai/virtual-robotic-lab" target="_blank">Virtual Robotic Lab</a></h3>
         <p>A web-powered virtual robotic lab for high-performance coding, simulation, and seamless interaction with virtual 3D environments.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/palletizing.jpg" alt="Palletizing Intelligence">
+        <h3><a href="https://github.com/motion-xai/palletizing-intelligence" target="_blank">Palletizing Intelligence</a></h3>
+        <p>Autonomous & flexible palletizing cell combining vision, pallet-pattern planning, collision-free motion planning and robot-agnostic execution with autonomous recovery.</p>
       </div>
 
     </div>

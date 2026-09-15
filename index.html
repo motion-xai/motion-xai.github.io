@@ -77,16 +77,17 @@
       font-size: 1.15rem;
     }
 
-    .biz-title {
-      margin: 0.25rem 0 0;
+    .biz-tagline {
+      margin: 0.3rem 0 0;
       color: #8ec4ff;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
+      font-weight: bold;
     }
 
-    .biz-sub {
-      margin: 0.2rem 0 0;
+    .biz-title {
+      margin: 0.25rem 0 0;
       color: #c7d6ea;
-      font-size: 0.78rem;
+      font-size: 0.8rem;
     }
 
     .biz-qr {
@@ -128,6 +129,41 @@
       background: #084d92;
     }
 
+    /* Stack the card vertically for phones held upright */
+    @media (max-width: 600px) {
+      .biz-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.8rem 1.5rem;
+      }
+
+      .biz-info {
+        flex-direction: column;
+      }
+
+      .biz-photo {
+        width: 110px;
+        height: 110px;
+      }
+
+      .biz-text h3 {
+        font-size: 1.3rem;
+      }
+
+      .biz-qr {
+        margin-top: 0.5rem;
+      }
+
+      .biz-qr img {
+        width: 140px;
+        height: 140px;
+      }
+
+      .biz-qr span {
+        max-width: 140px;
+      }
+    }
+
     /* Show it off like an actual business card when the phone is held sideways */
     @media (orientation: landscape) and (max-height: 500px) {
       body > *:not(.connect-section) {
@@ -164,39 +200,61 @@
       .biz-card {
         height: 84vh;
         width: auto;
-        aspect-ratio: 1.75 / 1;
+        aspect-ratio: 2.05 / 1;
         max-width: 92vw;
         margin: 0;
         padding: 3vh 4vw;
         box-sizing: border-box;
         justify-content: space-between;
+        flex-wrap: nowrap;
+      }
+
+      .biz-info {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
+      .biz-text {
+        min-width: 0;
+      }
+
+      .biz-text h3,
+      .biz-tagline,
+      .biz-title {
+        white-space: normal;
+        overflow-wrap: break-word;
       }
 
       .biz-photo {
-        width: 26vh;
-        height: 26vh;
-      }
-
-      .biz-text h3 {
-        font-size: 4vh;
-      }
-
-      .biz-title {
-        font-size: 2.2vh;
-      }
-
-      .biz-sub {
-        font-size: 1.7vh;
-      }
-
-      .biz-qr img {
         width: 24vh;
         height: 24vh;
       }
 
+      .biz-text h3 {
+        font-size: 3.8vh;
+      }
+
+      .biz-tagline {
+        font-size: 1.9vh;
+      }
+
+      .biz-title {
+        font-size: 1.7vh;
+      }
+
+      .biz-qr {
+        padding: 1.2vh;
+        flex: 0 0 auto;
+      }
+
+      .biz-qr img {
+        width: 32vh;
+        height: 32vh;
+      }
+
       .biz-qr span {
-        font-size: 1.5vh;
-        max-width: 24vh;
+        font-size: 1.6vh;
+        max-width: 32vh;
       }
     }
 
@@ -296,14 +354,13 @@
 
   <section class="connect-section">
     <h2>🤝 Let's Connect</h2>
-    <p class="connect-hint">At a conference or event? Turn your phone sideways — this turns into my business card.</p>
     <div class="biz-card">
       <div class="biz-info">
         <img class="biz-photo" src="images/photo.jpeg" alt="Musa Nurullah Yazar">
         <div class="biz-text">
-          <h3>Musa Nurullah Yazar, PhD</h3>
+          <h3>Musa Nurullah Yazar</h3>
+          <p class="biz-tagline">PhD | Engineering Leader | Robotics, Software & Autonomous Systems</p>
           <p class="biz-title">Research Programs Lead Engineer @ AVL</p>
-          <p class="biz-sub">Autonomous Driving · Robotics · Motion Planning</p>
         </div>
       </div>
       <div class="biz-qr">

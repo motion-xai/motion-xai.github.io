@@ -35,41 +35,87 @@
       text-align: center;
     }
 
-    .connect-box {
+    .connect-hint {
+      margin-bottom: 0;
+    }
+
+    /* Business card */
+    .biz-card {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
       align-items: center;
-      gap: 2rem;
-      margin-top: 1rem;
-    }
-
-    .qr-card {
-      background: #fff;
-      border: 2px solid #0A66C2;
-      border-radius: 12px;
-      padding: 1rem;
-      display: inline-block;
-    }
-
-    .qr-card img {
-      width: 200px;
-      height: 200px;
-      display: block;
-    }
-
-    .qr-caption {
-      max-width: 320px;
+      justify-content: space-between;
+      gap: 1.5rem;
+      max-width: 640px;
+      margin: 1.2rem auto 0;
+      background: linear-gradient(135deg, #10233f, #1c3c68);
+      color: #fff;
+      border-radius: 18px;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
       text-align: left;
     }
 
-    .qr-caption p {
-      margin: 0.4rem 0;
+    .biz-info {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      min-width: 0;
+    }
+
+    .biz-photo {
+      width: 84px;
+      height: 84px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #4da3ff;
+      flex-shrink: 0;
+    }
+
+    .biz-text h3 {
+      margin: 0;
+      font-size: 1.15rem;
+    }
+
+    .biz-title {
+      margin: 0.25rem 0 0;
+      color: #8ec4ff;
+      font-size: 0.9rem;
+    }
+
+    .biz-sub {
+      margin: 0.2rem 0 0;
+      color: #c7d6ea;
+      font-size: 0.78rem;
+    }
+
+    .biz-qr {
+      background: #fff;
+      border-radius: 12px;
+      padding: 0.6rem;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .biz-qr img {
+      width: 96px;
+      height: 96px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .biz-qr span {
+      display: block;
+      margin-top: 0.3rem;
+      color: #0A66C2;
+      font-size: 0.65rem;
+      font-weight: bold;
+      max-width: 96px;
     }
 
     .linkedin-btn {
       display: inline-block;
-      margin-top: 0.6rem;
+      margin-top: 1rem;
       background: #0A66C2;
       color: #fff !important;
       padding: 0.6rem 1.2rem;
@@ -80,6 +126,78 @@
 
     .linkedin-btn:hover {
       background: #084d92;
+    }
+
+    /* Show it off like an actual business card when the phone is held sideways */
+    @media (orientation: landscape) and (max-height: 500px) {
+      body > *:not(.connect-section) {
+        display: none;
+      }
+
+      .connect-section h2, .connect-hint, .linkedin-btn {
+        display: none;
+      }
+
+      body {
+        background: #10233f;
+      }
+
+      html, body {
+        height: 100%;
+      }
+
+      section.connect-section {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        max-width: none !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        background: transparent !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        box-sizing: border-box;
+      }
+
+      .biz-card {
+        height: 84vh;
+        width: auto;
+        aspect-ratio: 1.75 / 1;
+        max-width: 92vw;
+        margin: 0;
+        padding: 3vh 4vw;
+        box-sizing: border-box;
+        justify-content: space-between;
+      }
+
+      .biz-photo {
+        width: 26vh;
+        height: 26vh;
+      }
+
+      .biz-text h3 {
+        font-size: 4vh;
+      }
+
+      .biz-title {
+        font-size: 2.2vh;
+      }
+
+      .biz-sub {
+        font-size: 1.7vh;
+      }
+
+      .biz-qr img {
+        width: 24vh;
+        height: 24vh;
+      }
+
+      .biz-qr span {
+        font-size: 1.5vh;
+        max-width: 24vh;
+      }
     }
 
     section {
@@ -178,17 +296,22 @@
 
   <section class="connect-section">
     <h2>🤝 Let's Connect</h2>
-    <p>Meeting at a conference or event? Scan the QR code below to connect with me on LinkedIn instantly.</p>
-    <div class="connect-box">
-      <div class="qr-card">
-        <img src="images/linkedin_qr.png" alt="QR code to connect with Musa Nurullah Yazar on LinkedIn">
+    <p class="connect-hint">At a conference or event? Turn your phone sideways — this turns into my business card.</p>
+    <div class="biz-card">
+      <div class="biz-info">
+        <img class="biz-photo" src="images/photo.jpeg" alt="Musa Nurullah Yazar">
+        <div class="biz-text">
+          <h3>Musa Nurullah Yazar, PhD</h3>
+          <p class="biz-title">Research Programs Lead Engineer @ AVL</p>
+          <p class="biz-sub">Autonomous Driving · Robotics · Motion Planning</p>
+        </div>
       </div>
-      <div class="qr-caption">
-        <p><strong>📱 Scan to connect on LinkedIn</strong></p>
-        <p>Points straight to my LinkedIn profile — tap Connect once it opens.</p>
-        <a class="linkedin-btn" href="https://www.linkedin.com/in/musa-nurullah-yazar-7b65758a" target="_blank">Open LinkedIn Profile</a>
+      <div class="biz-qr">
+        <img src="images/linkedin_qr.png" alt="QR code to connect with Musa Nurullah Yazar on LinkedIn">
+        <span>Scan to connect on LinkedIn</span>
       </div>
     </div>
+    <a class="linkedin-btn" href="https://www.linkedin.com/in/musa-nurullah-yazar-7b65758a" target="_blank">Open LinkedIn Profile</a>
   </section>
 
   <section>
